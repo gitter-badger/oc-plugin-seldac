@@ -3,7 +3,7 @@
 	"description": "Seldac Servizi S.r.L. (http://www.seldacservizi.it) Plugin for OctoberCMS",
 	"type": "library",
 	"keywords": ["october", "cms", "plugin", "axc", "seldac", "settings"],
-	"homepage": "https://www.alexcarrega.com/p/oc-plugin-seldac",
+	"homepage": "http://www.alexcarrega.com/p/oc-plugin-seldac",
 	"license": "Apache-2.0",
 	"authors": [
 		{
@@ -17,7 +17,7 @@
 		"email": "support-oc-plugin-seldac@alexcarrega.com",
 		"issues": "https://github.com/alexcarrega/oc-plugin-seldac/issues",
 		"wiki": "https://github.com/alexcarrega/oc-plugin-seldac/wiki",
-		"forum": "@todo",
+		"forum": "http://www.alexcarrega.com/f/oc-plugin-seldac",
 		"source": "https://github.com/alexcarrega/oc-plugin-seldac/wiki"
 	},
 	"require": {
