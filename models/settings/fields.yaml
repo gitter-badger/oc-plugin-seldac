@@ -1,0 +1,187 @@
+tabs:
+  fields:
+    name:
+      comment: axc.seldac::lang.settings.fields.name.comment
+      label: axc.seldac::lang.settings.fields.name.label
+      placeholder: axc.seldac::lang.settings.fields.name.placeholder
+      required: true
+      span: left
+      tab: axc.seldac::lang.settings.fields.tab.info
+
+    full_name:
+      comment: axc.seldac::lang.settings.fields.full_name.comment
+      label: axc.seldac::lang.settings.fields.full_name.label
+      placeholder: axc.seldac::lang.settings.fields.full_name.placeholder
+      required: true
+      span: right
+      tab: axc.seldac::lang.settings.fields.tab.info
+
+    slogan:
+      commentAbove: axc.seldac::lang.settings.fields.slogan.comment
+      label: axc.seldac::lang.settings.fields.slogan.label
+      required: true
+      size: huge
+      tab: axc.seldac::lang.settings.fields.tab.info
+      type: textarea
+
+    about:
+      commentAbove: axc.seldac::lang.settings.fields.about.comment
+      label: axc.seldac::lang.settings.fields.about.label
+      required: true
+      size: huge
+      tab: axc.seldac::lang.settings.fields.tab.info
+      type: textarea
+
+    address_street_name:
+      comment: axc.seldac::lang.settings.fields.address.street.name.comment
+      label: axc.seldac::lang.settings.fields.address.street.name.label
+      placeholder: axc.seldac::lang.settings.fields.address.street.name.placeholder
+      required: true
+      tab: axc.seldac::lang.settings.fields.tab.address
+
+    address_street_number:
+      comment: axc.seldac::lang.settings.fields.address.street.number.comment
+      label: axc.seldac::lang.settings.fields.address.street.number.label
+      placeholder: axc.seldac::lang.settings.fields.address.street.number.placeholder
+      required: true
+      span: left
+      tab: axc.seldac::lang.settings.fields.tab.address
+
+    address_street_int:
+      comment: axc.seldac::lang.settings.fields.address.street.int.comment
+      label: axc.seldac::lang.settings.fields.address.street.int.label
+      placeholder: axc.seldac::lang.settings.fields.address.street.int.placeholder
+      span: right
+      tab: axc.seldac::lang.settings.fields.tab.address
+
+    address_city:
+      comment: axc.seldac::lang.settings.fields.address.city.comment
+      label: axc.seldac::lang.settings.fields.address.city.label
+      placeholder: axc.seldac::lang.settings.fields.address.city.placeholder
+      required: true
+      span: left
+      tab: axc.seldac::lang.settings.fields.tab.address
+
+    address_zip:
+      comment: axc.seldac::lang.settings.fields.address.zip.comment
+      label: axc.seldac::lang.settings.fields.address.zip.label
+      placeholder: axc.seldac::lang.settings.fields.address.zip.placeholder
+      required: true
+      span: right
+      tab: axc.seldac::lang.settings.fields.tab.address
+
+    address_province:
+      comment: axc.seldac::lang.settings.fields.address.province.comment
+      label: axc.seldac::lang.settings.fields.address.province.label
+      required: true
+      span: left
+      tab: axc.seldac::lang.settings.fields.tab.address
+      type: dropdown
+      depends: address_country
+
+    address_country:
+      comment: axc.seldac::lang.settings.fields.address.country.comment
+      label: axc.seldac::lang.settings.fields.address.country.label
+      required: true
+      span: right
+      tab: axc.seldac::lang.settings.fields.tab.address
+      type: dropdown
+
+    vat:
+      tab: axc.seldac::lang.settings.fields.tab.id
+      label: axc.seldac::lang.settings.fields.vat.label
+      comment: axc.seldac::lang.settings.fields.vat.comment
+      placeholder: axc.seldac::lang.settings.fields.vat.placeholder
+      required: true
+
+    rui_section:
+      comment: axc.seldac::lang.settings.fields.rui.section.comment
+      label: axc.seldac::lang.settings.fields.rui.section.label
+      placeholder: axc.seldac::lang.settings.fields.rui.section.placeholder
+      required: true
+      tab: axc.seldac::lang.settings.fields.tab.rui
+
+    rui_number:
+      comment: axc.seldac::lang.settings.fields.rui.number.comment
+      label: axc.seldac::lang.settings.fields.rui.number.label
+      placeholder: axc.seldac::lang.settings.fields.rui.number.placeholder
+      required: true
+      tab: axc.seldac::lang.settings.fields.tab.rui
+
+    rui_date:
+      comment: axc.seldac::lang.settings.fields.rui.date.comment
+      label: axc.seldac::lang.settings.fields.rui.date.label
+      mode: date
+      required: true
+      tab: axc.seldac::lang.settings.fields.tab.rui
+      type: datepicker
+
+    mc_address_street_name:
+      comment: axc.seldac::lang.settings.fields.address.street.name.comment
+      label: axc.seldac::lang.settings.fields.address.street.name.label
+      placeholder: axc.seldac::lang.settings.fields.address.street.name.placeholder
+      required: true
+      tab: axc.seldac::lang.settings.fields.tab.mc.address
+
+    mc_address_street_number:
+      comment: axc.seldac::lang.settings.fields.address.street.number.comment
+      label: axc.seldac::lang.settings.fields.address.street.number.label
+      placeholder: axc.seldac::lang.settings.fields.address.street.number.placeholder
+      required: true
+      span: left
+      tab: axc.seldac::lang.settings.fields.tab.mc.address
+
+    mc_address_street_int:
+      comment: axc.seldac::lang.settings.fields.address.street.int.comment
+      label: axc.seldac::lang.settings.fields.address.street.int.label
+      placeholder: axc.seldac::lang.settings.fields.address.street.int.placeholder
+      span: right
+      tab: axc.seldac::lang.settings.fields.tab.mc.address
+
+    mc_address_city:
+      comment: axc.seldac::lang.settings.fields.address.city.comment
+      label: axc.seldac::lang.settings.fields.address.city.label
+      placeholder: axc.seldac::lang.settings.fields.address.city.placeholder
+      required: true
+      span: left
+      tab: axc.seldac::lang.settings.fields.tab.mc.address
+
+    mc_address_zip:
+      comment: axc.seldac::lang.settings.fields.address.zip.comment
+      label: axc.seldac::lang.settings.fields.address.zip.label
+      placeholder: axc.seldac::lang.settings.fields.address.zip.placeholder
+      required: true
+      span: right
+      tab: axc.seldac::lang.settings.fields.tab.mc.address
+
+    mc_address_province:
+      comment: axc.seldac::lang.settings.fields.address.province.comment
+      label: axc.seldac::lang.settings.fields.address.province.label
+      required: true
+      span: left
+      tab: axc.seldac::lang.settings.fields.tab.mc.address
+      type: dropdown
+      depends:
+        - mc_address_country
+
+    mc_address_country:
+      comment: axc.seldac::lang.settings.fields.address.country.comment
+      label: axc.seldac::lang.settings.fields.address.country.label
+      required: true
+      span: right
+      tab: axc.seldac::lang.settings.fields.tab.mc.address
+      type: dropdown
+
+    mc_vat:
+      comment: axc.seldac::lang.settings.fields.vat.comment
+      label: axc.seldac::lang.settings.fields.vat.label
+      placeholder: axc.seldac::lang.settings.fields.vat.placeholder
+      required: true
+      tab: axc.seldac::lang.settings.fields.tab.mc.id
+
+    mc_nin:
+      comment: axc.seldac::lang.settings.fields.nin.comment
+      label: axc.seldac::lang.settings.fields.nin.label
+      placeholder: axc.seldac::lang.settings.fields.nin.placeholder
+      required: true
+      tab: axc.seldac::lang.settings.fields.tab.mc.id

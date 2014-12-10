@@ -1,0 +1,12 @@
+1.0.5: First version of Seldac
+1.0.6:
+  - Add Link Model
+  - create_link_table.php
+  - seed_link_table.php
+1.0.7: Remove Link Model (create a seperated and more general plugin)
+1.0.8.14:
+  - Initial update fo setting section.
+  - seed_settings_table.php
+1.0.9.10:
+  - Added State values for Italy.
+  - seed_states_table.php
