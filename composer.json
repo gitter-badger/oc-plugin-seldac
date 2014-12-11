@@ -1,5 +1,5 @@
 {
-	"name": "axc/oc-plugin-seldac",
+	"name": "alexcarrega/oc-plugin-seldac",
 	"description": "Seldac Servizi S.r.L. (http://www.seldacservizi.it) Plugin for OctoberCMS",
 	"type": "library",
 	"keywords": ["october", "cms", "plugin", "axc", "seldac", "settings"],
