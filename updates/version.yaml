@@ -1,12 +1,14 @@
-1.0.5: First version of Seldac
-1.0.6:
-  - Add Link Model
-  - create_link_table.php
-  - seed_link_table.php
-1.0.7: Remove Link Model (create a seperated and more general plugin)
-1.0.8.14:
-  - Initial update fo setting section.
+1.0.1: Initial release
+1.1.1:
+  - Seed data settings
   - seed_settings_table.php
-1.0.9.10:
-  - Added State values for Italy.
-  - seed_states_table.php
+1.2.1:
+  - Seed data for AxC.DataManagement plugin
+  - seed_abbreviation_table.php
+  - seed_email_table.php
+  - seed_fax_table.php
+  - seed_insurance_company_table.php
+  - seed_insurance_content_table.php
+  - seed_link_table.php
+  - seed_phone_table.php
+  - seed_slideshow_table.php

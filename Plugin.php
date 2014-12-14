@@ -17,7 +17,14 @@ class Plugin extends \System\Classes\PluginBase
 	 * Plugin dependencies.
 	 * @var array
 	 */
-	public $require = ['RainLab.User', 'AxC.Framework'];
+	public $require = [
+		'AnandPatel\SeoExtension',
+		'AxC.AddThis',
+		'AxC.DataManagement',
+		'AxC.Segment',
+		'RainLab.GoogleAnalytics',
+		'RainLab.User'
+	];
 
 	/**
 	 * Returns information about this plugin.
